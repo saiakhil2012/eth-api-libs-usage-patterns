@@ -1,1 +1,1 @@
-# eth-api-lib-patterns
+# Ethereum API Library Usage Patterns
