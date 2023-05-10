@@ -1,0 +1,11 @@
+{
+    "jsonrpc": {
+        "endpoints": {
+            "https": "https://example.com/abcd",
+            "wss": "wss://example.com/abcd"
+        }
+    },
+    "contractAddress": "0x0",
+    "mainAccountPrivateKey": "0x0",
+    "additionalAccountPrivateKey": "0x0"
+}
