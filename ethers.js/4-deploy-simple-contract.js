@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const solc = require("solc");
 const { ethers } = require("ethers");
-const config = require('./config-self.json');
+const config = require('../config/config-self.json');
 
 var CONTRACT_FILE = "../contracts/Greetings.sol";
 var CONTRACT_NAME = path.parse(CONTRACT_FILE).name;
