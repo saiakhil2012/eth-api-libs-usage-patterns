@@ -16,7 +16,7 @@ PRIVATE_KEY_ACC_1 = config.mainAccountPrivateKey;
 // Setting up a JSON RPC Provider
 var provider;
 try {
-  provider = new ethers.providers.JsonRpcProvider(config.jsonrpc.endpoints.https);
+  provider = new ethers.providers.JsonRpcBatchProvider(config.jsonrpc.endpoints.https);
 } catch (err) {
   console.log(err);
 }
