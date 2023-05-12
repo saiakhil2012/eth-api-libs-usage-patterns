@@ -1,5 +1,5 @@
 const ethers = require("ethers");
-const config = require('./config-self.json');
+const config = require('../config/config-self.json');
 
 const CONTRACT_ABI = [
     "function totalSupply() public view returns (uint256)",

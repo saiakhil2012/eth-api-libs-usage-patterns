@@ -53,7 +53,7 @@ async function deployContract() {
     let contract = await factory.deploy();
 
     await contract.deployed();
-    console.log(`Successfully deployed ${CONTRACT_NAME} Contract`);
+    console.log(`Successfully deployed ${CONTRACT_NAME} Contract at ${contract.address}`);
     
     return contract.address;
 }
@@ -88,7 +88,7 @@ const main = async () => {
     console.log("Successfully updated the greeting");
 
     var greetingAfter = await contract.getGreeting();
-        console.log("Greeting After: ", greetingAfter);
+        console.log("Greeting after update: ", greetingAfter);
 }
 
 main();
