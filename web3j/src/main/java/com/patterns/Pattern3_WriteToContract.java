@@ -6,13 +6,10 @@ import org.web3j.crypto.Credentials;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.http.HttpService;
 import org.web3j.tx.gas.DefaultGasProvider;
-import org.web3j.utils.Numeric;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import java.math.BigInteger;
 
-
 public class Pattern3_WriteToContract {
-
     public static void main(String[] args) throws Exception {
         FileReader fileReader = new FileReader("../config/config-self-alchemy.json");
         StringBuilder stringBuilder = new StringBuilder();

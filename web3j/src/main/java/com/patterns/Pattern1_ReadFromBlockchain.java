@@ -5,11 +5,9 @@ import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.methods.response.EthGasPrice;
 import org.web3j.protocol.core.methods.response.Web3ClientVersion;
 import org.web3j.protocol.http.HttpService;
-
 import java.io.FileReader;
 
 public class Pattern1_ReadFromBlockchain {
-
     public static void main(String[] args) throws Exception {
         FileReader fileReader = new FileReader("../config/config-self.json");
         StringBuilder stringBuilder = new StringBuilder();
